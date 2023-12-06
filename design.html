@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div id="calculator">
+            <h2 id="calculator-title">Calculator</h2>
+            <p id="no1">number 1 :
+                <input type="text">
+            </p>
+            <p id="no2">number 2 :
+                <input type="text">
+            </p>
+            <label for="operators">
+                options :
+            </label>
+            <select id="operators">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <p>
+                <input type="button" value="Display Result" onclick="press()">
+            </p>
+            <p id="result">
+                result :
+                <input type="text">
+            </p>
+        </div>
+
+    </form>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
